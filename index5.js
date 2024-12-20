@@ -10,3 +10,7 @@ function b(){
     var x=100;
     console.log(x)
 }
+c=undefined;
+console.log(c)
+c=4;
+console.log(c)
