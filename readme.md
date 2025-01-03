@@ -45,3 +45,26 @@ Episode 8->Let and Const are also hoisted in javascript but in diffrent memory s
 -We will get refrence error in such zone.
 
 -There is another type of error known as type error ->>assingment to a constant value gives type error
+
+
+Episode 9->
+
+-Block is a place where we can use multiple statment where javascript expects us to use single statment.
+-Var memory is reserved inside global scope therefore it can be accessed from outside as well but that is not the case for const and let.as there scope is block only.
+
+//Example of shadowing
+var a=10;
+
+{
+    var a=20;
+    let b=30;
+    const c=90;
+    console.log(a);
+}
+
+console.log(a);
+
+//In both logs  a will be logged as 20 as a inside block shadows both a values as in global object they point to same memory.
+
+but for const and let outside value stays in outside scope and inside stays there only
+
