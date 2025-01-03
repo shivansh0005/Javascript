@@ -37,3 +37,11 @@ x:undefined
 then seprate global scope for a() which when completes will pop out and same will be done for b();
 then global execution context will be done for x.
 
+
+Episode 8->Let and Const are also hoisted in javascript but in diffrent memory space in which they cant be access before initializing them with values.
+
+-This zone is known as temporary dead zone(Time between decleration and initialization).
+
+-We will get refrence error in such zone.
+
+-There is another type of error known as type error ->>assingment to a constant value gives type error
