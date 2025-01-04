@@ -68,3 +68,5 @@ console.log(a);
 
 but for const and let outside value stays in outside scope and inside stays there only
 
+
+episode 10->Function bundeled together with its lexical scope is known as closers
